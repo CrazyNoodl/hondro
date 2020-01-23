@@ -1,0 +1,52 @@
+.header {
+  background-color: #BD1D3C;
+  color: white;
+  font-size: 23px;
+  text-transform: uppercase;
+  height: 50px;
+
+  &__container {
+    position: relative;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+  }
+
+  &__specoffer {
+    font-family: 'Lobster', cursive;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    font-size: 35px;
+    margin: 0 5px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      background: transparent url(../images/img1.1.png) 0 0 no-repeat;
+      background-position: center;
+      width: 100px;
+      height: 100px;
+      left: 0;
+      top: -28px;
+      z-index: -1;
+    }
+  }
+
+  &__left {
+    color: #ffcc19;
+    padding: 0 5px;
+  }
+
+  &__offer {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    z-index: 3;
+  }
+
+}

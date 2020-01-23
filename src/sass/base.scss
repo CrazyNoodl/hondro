@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @include main-font;
+  font-weight: $main-weight;
+  line-height: $main-height;
+  color: $main-color;
+  font-size: $main-size;
+  min-width: 320px;
+  background: #3a1a2d;
+}
+
+.body__wrapper {
+  overflow: hidden;
+}

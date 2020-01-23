@@ -1,0 +1,47 @@
+.hh-1,
+.hh-2,
+.ss-1,
+.ss-2,
+.mm-1,
+.mm-2 {
+  display: inline-block;
+  vertical-align: bottom;
+  position: relative;
+  font-size: 26px;
+  line-height: 1.5;
+  color: black;
+  border-radius: 5px;
+  margin-right: 5px;
+  border: 1px solid #8d073d;
+  padding: 0 6px;
+  background: #da2a55;
+  overflow: hidden;
+  z-index: 1;
+
+  &:after {
+    content: '';
+    display: block;
+    height: 1px;
+    border-top: 1px solid #8d073d;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+.hh-2,
+.mm-2,
+.ss-2 {
+  margin: 0;
+}
+
+.countdown .item {
+  margin-right: 10px;
+  cursor: default;
+
+  &:last-child {
+    margin: 0;
+  }
+}

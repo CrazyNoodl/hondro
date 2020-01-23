@@ -1,0 +1,39 @@
+.about {
+  padding: 25px 0 60px;
+  background: #b7064d url(../images/sceleton.png) center no-repeat;
+  background-size: contain;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    height: 25px;
+    background: #612549;
+  }
+
+  &__container {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__img {
+    position: absolute;
+    bottom: -225px;
+  }
+
+  &__title {
+    position: absolute;
+    bottom: 130px;
+    left: 250px;
+    font-family: 'Lobster', cursive;
+    font-size: 31px;
+    color: #ffce22;
+  }
+
+  &__text {
+    padding-left: 250px;
+  }
+}

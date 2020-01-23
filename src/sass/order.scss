@@ -1,0 +1,108 @@
+.order {
+  padding: 250px 0 20px;
+  background: linear-gradient(180deg, rgba(62, 27, 47, 1) 30%, rgba(183, 28, 77, 1) 75%);
+
+  &__container {
+    padding: 30px 40px 30px 0;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 133, 34);
+    background: linear-gradient(180deg, rgba(255, 133, 34, 1) 15%, rgba(183, 28, 77, 1) 75%);
+    border-radius: 20px;
+    position: relative;
+  }
+
+  &__price {
+    width: 460px;
+    border: 2px dashed rgba(183, 28, 77, 1);
+    border-left: none;
+    border-radius: 20px;
+    padding-left: 190px;
+    padding-top: 10px;
+  }
+
+  &__form {
+    // width: 50%;
+  }
+
+  &__image {
+
+    position: absolute;
+    top: -60px;
+    left: -50px;
+  }
+
+  &__title {
+    font-family: 'Lobster', cursive;
+    font-size: 38px;
+    text-transform: uppercase;
+    max-width: 260px;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+
+  &__subtitle {
+    text-transform: none;
+  }
+
+  &__discount {
+    height: 75px;
+    background: url(../images/img8.4.png) left no-repeat;
+    line-height: 75px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  &__newprice {
+    color: #b7064d;
+  }
+
+  &__oldprice {
+    color: #fcc524;
+    text-decoration: line-through;
+  }
+
+  &__today {
+    display: flex;
+    font-size: 14px;
+    line-height: 1.8;
+    position: relative;
+    left: -70px;
+    margin-bottom: 40px;
+  }
+
+  &__number {
+    position: relative;
+    width: 68px;
+    height: 54px;
+    display: inline-block;
+    line-height: 54px;
+    margin-right: 10px;
+    text-align: center;
+    color: #580c2b;
+    font-size: 40px;
+    background: transparent url(../images/img8.3.png) no-repeat;
+  }
+
+
+
+
+
+
+
+  &__text {
+    display: inline-block;
+    max-width: 150px;
+    color: #f5b429;
+    ;
+  }
+
+  &__maxorders {
+    font-size: 18px;
+  }
+
+
+}

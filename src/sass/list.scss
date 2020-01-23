@@ -1,0 +1,21 @@
+.list {
+  padding-left: 55px;
+  font-size: 18px;
+
+  &__item {
+    margin-bottom: 10px;
+    position: relative;
+    line-height: 1.7;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 43px;
+      height: 33px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -55px;
+      background-image: url(../images/mark.png);
+    }
+  }
+}
